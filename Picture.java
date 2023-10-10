@@ -104,4 +104,10 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+    
+    public void amanecer()
+    {
+        moon.makeInvisible();
+        sun.slowMoveVertical(-300);
+    }
 }
